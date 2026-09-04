@@ -1,0 +1,24 @@
+{
+  "name": "everysearch",
+  "version": "0.1.0",
+  "description": "EverySearch web search and page-retrieval skill for Codex and Claude Code. Retrieve current sources through MCP, preserve original citations and disclose search gaps.",
+  "author": {
+    "name": "EveryInfra",
+    "url": "https://everyinfra.com"
+  },
+  "homepage": "https://api.everyinfra.com/docs",
+  "repository": "https://github.com/everyinfra/everysearch-plugin",
+  "license": "Apache-2.0",
+  "keywords": [
+    "everyinfra",
+    "agent-plugin",
+    "web-search",
+    "web-retrieval",
+    "mcp",
+    "search-api",
+    "source-citations",
+    "codex",
+    "claude-code",
+    "agent-skills"
+  ]
+}

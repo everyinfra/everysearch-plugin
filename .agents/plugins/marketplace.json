@@ -1,0 +1,20 @@
+{
+  "name": "everysearch-plugin",
+  "interface": {
+    "displayName": "Everysearch Plugin"
+  },
+  "plugins": [
+    {
+      "name": "everysearch",
+      "source": {
+        "source": "local",
+        "path": "./plugins/everysearch"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

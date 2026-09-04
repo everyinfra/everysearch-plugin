@@ -1,0 +1,23 @@
+[
+  {
+    "prompt": "Find the current official documentation for this feature and return the original sources, with dates where available.",
+    "must_preserve_scope": true,
+    "must_discover_contract": true,
+    "must_not_infer_permission": true,
+    "example_type": "illustrative-not-live"
+  },
+  {
+    "prompt": "Read this supplied documentation URL using a live supported page-reading tool. Do not search again unless reading fails.",
+    "must_preserve_scope": true,
+    "must_discover_contract": true,
+    "must_not_infer_permission": true,
+    "example_type": "illustrative-not-live"
+  },
+  {
+    "prompt": "Search this topic within the requested site and explain whether the available mechanism matches the requested search type.",
+    "must_preserve_scope": true,
+    "must_discover_contract": true,
+    "must_not_infer_permission": true,
+    "example_type": "illustrative-not-live"
+  }
+]

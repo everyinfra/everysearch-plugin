@@ -1,0 +1,34 @@
+{
+  "repository": "everyinfra/everysearch-plugin",
+  "visibility": "public",
+  "publicationStatus": "authorized-initial-publication",
+  "plugin": "everysearch",
+  "skill": "everysearch",
+  "displayName": "EverySearch",
+  "description": "EverySearch web search and page-retrieval skill for Codex and Claude Code. Retrieve current sources through MCP, preserve original citations and disclose search gaps.",
+  "homepage": "https://everyinfra.com",
+  "topics": [
+    "everyinfra",
+    "agent-plugin",
+    "web-search",
+    "web-retrieval",
+    "mcp",
+    "search-api",
+    "source-citations",
+    "codex",
+    "claude-code",
+    "agent-skills"
+  ],
+  "searchIntent": "Web search and page retrieval for an AI coding agent",
+  "readmeTitle": "EverySearch — Web search and page retrieval for source-linked answers",
+  "keywordResearch": "Qualitative intent mapping; no search volume, difficulty or ranking estimates.",
+  "transport": "mcp",
+  "version": "0.1.0",
+  "source": {
+    "repository": "everyinfra/everyinfra-agent-plugins",
+    "commit": "78d3fd694244529e5062c51006fc10ef0de9dc87",
+    "path": "plugins/everyinfra/skills/everysearch/SKILL.md",
+    "sha256": "dcfbf4faabda92659c7d899d34de96126c82429a00c2c5acba56d4cdb1f6a630"
+  },
+  "definition": "EverySearch is a standalone EveryInfra agent skill for web search and page retrieval through MCP. It selects an available retrieval mechanism, preserves original source URLs and makes freshness or access gaps explicit for source-linked answers."
+}

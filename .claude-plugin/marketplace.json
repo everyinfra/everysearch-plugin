@@ -1,0 +1,16 @@
+{
+  "name": "everysearch-plugin",
+  "owner": {
+    "name": "EveryInfra",
+    "url": "https://everyinfra.com"
+  },
+  "plugins": [
+    {
+      "name": "everysearch",
+      "source": "./plugins/everysearch",
+      "description": "EverySearch web search and page-retrieval skill for Codex and Claude Code. Retrieve current sources through MCP, preserve original citations and disclose search gaps.",
+      "version": "0.1.0"
+    }
+  ],
+  "description": "EverySearch web search and page-retrieval skill for Codex and Claude Code. Retrieve current sources through MCP, preserve original citations and disclose search gaps."
+}

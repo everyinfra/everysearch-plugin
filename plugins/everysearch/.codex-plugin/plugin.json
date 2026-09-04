@@ -1,0 +1,49 @@
+{
+  "name": "everysearch",
+  "version": "0.1.0",
+  "description": "EverySearch web search and page-retrieval skill for Codex and Claude Code. Retrieve current sources through MCP, preserve original citations and disclose search gaps.",
+  "author": {
+    "name": "EveryInfra",
+    "url": "https://everyinfra.com"
+  },
+  "homepage": "https://api.everyinfra.com/docs",
+  "repository": "https://github.com/everyinfra/everysearch-plugin",
+  "license": "Apache-2.0",
+  "keywords": [
+    "everyinfra",
+    "agent-plugin",
+    "web-search",
+    "web-retrieval",
+    "mcp",
+    "search-api",
+    "source-citations",
+    "codex",
+    "claude-code",
+    "agent-skills"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "EverySearch",
+    "shortDescription": "Web search and page retrieval for source-linked answers",
+    "longDescription": "EverySearch is a standalone EveryInfra agent skill for web search and page retrieval through MCP. It selects an available retrieval mechanism, preserves original source URLs and makes freshness or access gaps explicit for source-linked answers. Use it when the immediate job is retrieving current information, reading a supplied URL or finding sources. The returned evidence can support a later answer, but a list of search results is not itself a verified conclusion.",
+    "developerName": "EveryInfra",
+    "category": "Engineering",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://everyinfra.com",
+    "privacyPolicyURL": "https://everyinfra.com/privacy",
+    "termsOfServiceURL": "https://everyinfra.com/terms",
+    "brandColor": "#287A73",
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/logo.svg",
+    "logoDark": "./assets/logo-dark.svg",
+    "defaultPrompt": [
+      "Find the current official documentation for this feature and return the original sources, with dates where available.",
+      "Read this supplied documentation URL using a live supported page-reading tool. Do not search again unless reading fails.",
+      "Search this topic within the requested site and explain whether the available mechanism matches the requested search type."
+    ]
+  }
+}
