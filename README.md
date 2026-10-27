@@ -1,5 +1,8 @@
 # EverySearch — Web search and page retrieval for source-linked answers
 
+<!-- rq223-banner -->
+<p align="center"><img alt="EverySearch — Web search and page retrieval for source-linked answers" src="assets/banner-en.jpg" width="100%"></p>
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">

@@ -1,5 +1,8 @@
 # EverySearch — Búsqueda web y lectura de páginas con fuentes citables
 
+<!-- rq223-banner -->
+<p align="center"><img alt="EverySearch — Búsqueda web y lectura de páginas con fuentes citables" src="assets/banner-es.jpg" width="100%"></p>
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">

@@ -1,5 +1,8 @@
 # EverySearch：网页搜索与来源读取
 
+<!-- rq223-banner -->
+<p align="center"><img alt="EverySearch：网页搜索与来源读取，答案带出处" src="assets/banner-zh.jpg" width="100%"></p>
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
